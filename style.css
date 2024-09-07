@@ -1,0 +1,239 @@
+#logo {
+  width: 4.5rem;
+}
+.fs-e {
+  font-size: 31px;
+}
+header {
+  z-index: 1;
+  position: relative;
+  box-shadow: 0px 1px 2px #e01c6ea6, 0px 2px 4px #e01c6ea6,
+    0px 4px 8px #e01c6ea6, 0px 8px 16px #e01c6ea6;
+}
+.btn-p {
+  background: #ee098e;
+}
+.btn-p:hover {
+  color: white;
+  background: #ee098e;
+}
+#res {
+  width: 160px;
+  height: 36px;
+  font-size: 16px;
+}
+header > div {
+  margin-left: 70px !important;
+  margin-right: 70px !important;
+}
+header > div > div > ul {
+  margin-left: 3rem !important;
+}
+#main {
+  border-bottom: 2px solid #ee098e;
+  margin-bottom: 2 rem;
+  transition: 2s ease-in;
+}
+header > div > div > ul > li:hover {
+  transform: scaleX();
+  border-bottom: 2px solid #ee098e;
+  margin-bottom: 2 rem;
+  transition: 0.2s;
+  transform: translateY(2px);
+}
+#cover {
+  width: 100%;
+  height: 25rem;
+  /* background:hsla(325, 93%, 48%, 0.479) !important; */
+  filter: blur(1px);
+}
+#sec-1 > div > h1 {
+  color: #f25278;
+  font-weight: bolder;
+  font-size: 47px;
+}
+#sec-1 {
+  background: url("https://i.pinimg.com/564x/18/66/16/186616a8997294bb38871f9ad33dbf82.jpg"),
+    #f2b8c5a6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 100%; */
+  width: 100%;
+  height: 30rem;
+}
+#inH1 {
+  font-size: 20px;
+}
+#s1-div {
+  position: relative;
+}
+.lexend {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+.manrope {
+  font-family: "Manrope", sans-serif;
+
+  font-style: normal;
+}
+.btn-2 {
+  border-radius: 10px;
+  width: 20rem;
+  text-align: center !important;
+  position: relative;
+  background: transparent;
+  border: 2px solid #f25278;
+  color: #f25278;
+}
+.btn-2:hover {
+  border-radius: 10px;
+  width: 20rem;
+  text-align: center !important;
+  position: relative;
+  background: transparent;
+  border: 2px solid #f25278;
+  color: #f25278;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  /* .hidden{
+        overflow: hidden !important;
+    } */
+  header > div {
+    margin-left: 0;
+  }
+  #s1-div {
+    position: relative;
+  }
+  .btn-2 {
+    position: relative;
+    background: transparent;
+    border: 2px solid #f25278;
+    width: 10rem;
+  }
+  header > div {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+  }
+  header > div > div {
+    gap: 31px !important;
+  }
+  header {
+    margin-bottom: 3rem;
+    overflow: hidden;
+  }
+  .fs-e {
+    font-size: 26px;
+  }
+  .btn2 {
+    margin-left: -110px;
+  }
+  #sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: #f2b8c6;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 44px;
+    padding-bottom: 30px;
+  }
+  .hide {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 669px) {
+  header > div {
+    margin-left: 0;
+  }
+  #s1-div {
+    position: relative;
+  }
+  .btn-2 {
+    position: relative;
+    background: transparent;
+    border: 2px solid #f25278;
+    width: 10rem;
+  }
+  header > div {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+  }
+  header > div > div {
+    gap: 31px !important;
+  }
+  header {
+    margin-bottom: 3rem;
+    overflow: hidden;
+  }
+  .fs-e {
+    font-size: 26px;
+  }
+  .btn2 {
+    margin-left: -110px;
+  }
+  #sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: #f2b8c6;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 44px;
+    padding-bottom: 30px;
+  }
+  .hide {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 999px) {
+  header > div {
+    margin-left: 0;
+  }
+  #s1-div {
+    position: relative;
+  }
+  .btn-2 {
+    position: relative;
+    background: transparent;
+    border: 2px solid #f25278;
+    width: 10rem;
+  }
+  header > div {
+    margin-left: 10px !important;
+    margin-right: 0px !important;
+  }
+  header > div > div {
+    gap: 31px !important;
+  }
+  header {
+    margin-bottom: 3rem;
+    overflow: hidden;
+  }
+  .fs-e {
+    font-size: 26px;
+  }
+  .btn2 {
+    margin-left: -110px;
+  }
+  #sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: #f2b8c6;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 44px;
+    padding-bottom: 30px;
+  }
+  .hide {
+    visibility: hidden;
+  }
+}
